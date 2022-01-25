@@ -15,6 +15,9 @@
 		BC90B7F12796562900946990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC90B7EF2796562900946990 /* LaunchScreen.storyboard */; };
 		BC90B7FC2796562900946990 /* H_Test_PNappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90B7FB2796562900946990 /* H_Test_PNappTests.swift */; };
 		BC90B8072796562900946990 /* H_Test_PNappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90B8062796562900946990 /* H_Test_PNappUITests.swift */; };
+		BC90B8152796626F00946990 /* ZukanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90B8142796626F00946990 /* ZukanViewController.swift */; };
+		BCE53A22279EFEB6000FF2B4 /* ZukanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE53A21279EFEB6000FF2B4 /* ZukanTableViewController.swift */; };
+		BCE53A24279F00BF000FF2B4 /* ZukanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE53A23279F00BF000FF2B4 /* ZukanTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BC90B8022796562900946990 /* H-Test_PNappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H-Test_PNappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC90B8062796562900946990 /* H_Test_PNappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_Test_PNappUITests.swift; sourceTree = "<group>"; };
 		BC90B8082796562900946990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC90B8142796626F00946990 /* ZukanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZukanViewController.swift; sourceTree = "<group>"; };
+		BCE53A21279EFEB6000FF2B4 /* ZukanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZukanTableViewController.swift; sourceTree = "<group>"; };
+		BCE53A23279F00BF000FF2B4 /* ZukanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZukanTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,10 @@
 				BC90B7E42796562800946990 /* AppDelegate.swift */,
 				BC90B7E62796562800946990 /* SceneDelegate.swift */,
 				BC90B7E82796562800946990 /* ViewController.swift */,
+				BC90B8142796626F00946990 /* ZukanViewController.swift */,
 				BC90B7EA2796562800946990 /* Main.storyboard */,
+				BCE53A23279F00BF000FF2B4 /* ZukanTableViewCell.swift */,
+				BCE53A21279EFEB6000FF2B4 /* ZukanTableViewController.swift */,
 				BC90B7ED2796562900946990 /* Assets.xcassets */,
 				BC90B7EF2796562900946990 /* LaunchScreen.storyboard */,
 				BC90B7F22796562900946990 /* Info.plist */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE53A22279EFEB6000FF2B4 /* ZukanTableViewController.swift in Sources */,
+				BC90B8152796626F00946990 /* ZukanViewController.swift in Sources */,
 				BC90B7E92796562800946990 /* ViewController.swift in Sources */,
 				BC90B7E52796562800946990 /* AppDelegate.swift in Sources */,
 				BC90B7E72796562800946990 /* SceneDelegate.swift in Sources */,
+				BCE53A24279F00BF000FF2B4 /* ZukanTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
